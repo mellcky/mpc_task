@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "cd backend && npm start"
+buildCommand = "cd backend && npm install && npm run build && npx prisma generate"
+
+[[services]]
+name = "web"
+rootDir = "backend"

@@ -1,0 +1,7 @@
+{
+  "database": {
+    "name": "ecommerce-db",
+    "plan": "free",
+    "postgresqlVersion": "14"
+  }
+}
